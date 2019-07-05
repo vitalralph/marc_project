@@ -25,7 +25,7 @@ SECRET_KEY = 'n28a=k5sb4(d$3n(3za94_401fbte0gqmmm#o%za4a)g$^ye+$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -38,7 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'noyeau',
-    'phonenumber_field',
 ]
 
 MIDDLEWARE = [

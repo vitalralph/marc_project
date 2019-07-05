@@ -1,5 +1,5 @@
 from django.db import models
-from phonenumber_field.modelfields import PhoneNumberField
+
 # Create your models here.
 
 class IdClient(models.Model):
@@ -11,7 +11,6 @@ class IdClient(models.Model):
     question_1 = models.TextField()
     question_2 = models.TextField()
     question_3 = models.TextField()
-    telephone = PhoneNumberField(blank=True)
 
 
 
